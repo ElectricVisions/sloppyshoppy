@@ -1,21 +1,10 @@
 # Sloppyshoppy
 
-**TODO: Add description**
-
-## Installation
-
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `sloppyshoppy` to your list of dependencies in `mix.exs`:
-
-```elixir
-def deps do
-  [
-    {:sloppyshoppy, "~> 0.1.0"}
-  ]
-end
+```bash
+$ cp .env.example .env # and set keys
+$ source .env
+$ asdf install
+$ mix deps.get
+$ iex -S mix
+> Shopify.session |> Shopify.Product.all
 ```
-
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/sloppyshoppy](https://hexdocs.pm/sloppyshoppy).
-
