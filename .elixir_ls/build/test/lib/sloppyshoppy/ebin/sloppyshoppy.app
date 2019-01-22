@@ -1,0 +1,9 @@
+{application,sloppyshoppy,
+             [{applications,[kernel,stdlib,elixir,logger]},
+              {description,"sloppyshoppy"},
+              {modules,['Elixir.Sloppyshoppy',
+                        'Elixir.Sloppyshoppy.Application']},
+              {registered,[]},
+              {vsn,"0.1.0"},
+              {extra_applications,[logger]},
+              {mod,{'Elixir.Sloppyshoppy.Application',[]}}]}.
