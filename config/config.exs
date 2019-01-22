@@ -28,3 +28,9 @@ use Mix.Config
 # here (which is why it is important to import them last).
 #
 #     import_config "#{Mix.env}.exs"
+
+config :shopify, [
+  shop_name: System.get_env("SHOPIFY_SHOP_NAME"),
+  api_key: System.get_env("SHOPIFY_API_KEY"),
+  password: System.get_env("SHOPIFY_API_PASSWORD")
+]
